@@ -16,30 +16,21 @@ class MyApp extends StatelessWidget {
             style: TextStyle(fontSize: 18.0),
           ),
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.lime[300],
         body: SafeArea(
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 80,
-                  backgroundImage: AssetImage('images/protocoder.png'),
+                  radius: 75,
+                  backgroundImage: AssetImage('indexhhhhh-Copy.jpg'),
                 ),
                 Text(
                   'Sankara K',
                   style: TextStyle(
                     fontFamily: 'SourceSansPro',
                     fontSize: 25,
-                  ),
-                ),
-                Text(
-                  'Welcome',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontFamily: 'SourceSansPro',
-                    color: Colors.red[400],
-                    letterSpacing: 2.5,
                   ),
                 ),
                 SizedBox(
@@ -49,22 +40,21 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal[100],
                   ),
                 ),
-                Text("A LEGENDS PROFILE"),
                 Card(
-                    color: Colors.white,
+                    color: Colors.orangeAccent[200],
                     margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                     child: ListTile(
                       leading: Icon(
-                        Icons.phone,
+                        Icons.https,
                         color: Colors.teal[900],
                       ),
                       title: Text(
-                        '+91 1234567890',
+                        '8ijplw123',
                         style: TextStyle(fontFamily: 'BalooBhai', fontSize: 20.0),
                       ),
                     )),
                 Card(
-                  color: Colors.white,
+                  color: Colors.orangeAccent[200],
                   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   child: ListTile(
                     leading: Icon(
@@ -78,15 +68,28 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Card(
-                    color: Colors.amber,
+                    color: Colors.orangeAccent[200],
                     margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                     child: ListTile(
                       leading: Icon(
-                        Icons.block,
+                        Icons.phone,
                         color: Colors.teal[900],
                       ),
                       title: Text(
                         '+91 1234567890',
+                        style: TextStyle(fontFamily: 'BalooBhai', fontSize: 20.0),
+                      ),
+                    )),
+                Card(
+                    color: Colors.orangeAccent[200],
+                    margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.sports,
+                        color: Colors.teal[900],
+                      ),
+                      title: Text(
+                        '25986 steps',
                         style: TextStyle(fontFamily: 'BalooBhai', fontSize: 20.0),
                       ),
                     )),
